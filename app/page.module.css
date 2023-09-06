@@ -72,6 +72,19 @@
   max-width: 30ch;
 }
 
+.inputLabel {
+  margin-left: 5px;
+}
+
+.inputSelect {
+  margin-left: 5px;
+}
+
+.inputOption {
+  font-size: medium;
+  padding: 5px;
+}
+
 .center {
   display: flex;
   justify-content: center;
