@@ -72,17 +72,19 @@
   max-width: 30ch;
 }
 
+.formDiv {
+  margin-top: 50px;
+}
+
 .inputLabel {
-  margin-left: 5px;
+  margin-right: 10px;
+  font-size: x-large;
 }
 
+.inputText,
 .inputSelect {
-  margin-left: 5px;
-}
-
-.inputOption {
-  font-size: medium;
-  padding: 5px;
+  font-size: large;
+  padding: 3px 10px;
 }
 
 .center {
