@@ -1,8 +1,8 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   padding: 6rem;
   min-height: 100vh;
 }
@@ -32,6 +32,15 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  font-size: x-large;
+  text-align: center;
+}
+
+.overMax {
+  color: red;
+  font-size: large;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 .code {
